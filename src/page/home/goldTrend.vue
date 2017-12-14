@@ -271,7 +271,7 @@
         this.$nextTick(function () {
           this.drawGraph('main');
           this.chart.on('click', function (param) {
-            console.log(param);
+            /*console.log(param);*/
           });
           let that = this;
           document.getElementById('main').onmousedown=function () {
@@ -294,7 +294,7 @@
 
           if (type === 'DAY') {
             x.value = this.list[i].time.split(' ')[1];
-            console.log(this.list[i].time.split(' ')[1])
+            /*console.log(this.list[i].time.split(' ')[1])*/
           } else {
             x.value = this.list[i].time.split(' ')[0];
           }

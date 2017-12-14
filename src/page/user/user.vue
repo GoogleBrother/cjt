@@ -178,10 +178,9 @@
     width: 1.28rem;
     height: 1.28rem;
     border-radius: 50%;
-    background-color: #d8d8d8;
     margin-right: .32rem;
     overflow: hidden;
-    background: url("../../assets/images/user/heard.png")no-repeat center;
+    background: url("../../assets/images/user/defaul.png")no-repeat center;
     background-size: 100%;
   }
   .user-header img{

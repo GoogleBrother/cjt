@@ -231,7 +231,7 @@
     height: .72rem;
     border-radius: 50%;
     overflow: hidden;
-    background: url("../../assets/images/user/heard.png")no-repeat center;
+    background: url("../../assets/images/user/defaul.png")no-repeat center;
     background-size: 100%;
   }
   .myPic img{

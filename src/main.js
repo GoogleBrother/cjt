@@ -81,7 +81,8 @@ Vue.prototype.md5 = md5;
  */
 
 // 请求接口baseUrl
-const baseUrl = 'http://192.168.0.179:9090/';
+/*const baseUrl = 'http://192.168.0.179:9090/';*/
+const baseUrl = 'http://39.108.106.9:9090/';
 Vue.prototype.imgUrl = baseUrl;
 axios.defaults.baseURL = baseUrl;
 
