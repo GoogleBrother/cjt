@@ -1,0 +1,258 @@
+/*
+* *一像素边框*
+* 使用时直接调用border-bottom,border-right,border-left,border-top
+*/
+.border-bottom,.border-right,.border-left,.border-top{
+  position: relative;
+}
+.border-top::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+}
+.border-bottom::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+}
+.border-left::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #eeeeee;
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+}
+.border-right::after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #eeeeee;
+  -webkit-transform-origin: right top;
+  transform-origin: right top;
+}
+.border{
+  border: 1px solid #eeeeee;
+}
+.border-rb{
+  border: 1px solid #eeeeee;
+}
+/* 2倍屏 */
+@media only screen and (-webkit-min-device-pixel-ratio: 2.0) {
+  .border-bottom::after,.border-top::after {
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+  }
+  .border-left::after,.border-right::after {
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+  }
+  .border{
+    border: 0.5px solid #e5e5e5;
+  }
+}
+/* 3倍屏 */
+@media only screen and (-webkit-min-device-pixel-ratio: 3.0) {
+  .border-bottom::after,.border-top::after {
+    -webkit-transform: scaleY(0.33);
+    transform: scaleY(0.33);
+  }
+  .border-left::after,.border-right::after {
+    -webkit-transform: scaleX(0.33);
+    transform: scaleX(0.33);
+  }
+}
+
+/*
+* 布局——对齐方式
+*/
+.txc{
+  text-align: center;
+}
+.txl{
+  text-align: left;
+}
+.txr{
+  text-align: right;
+}
+.vm{
+  vertical-align: middle;
+}
+
+/*
+* flex布局
+*/
+.flex{
+  display: flex;
+}
+.flex1{
+  flex: 1;
+}
+.flex2{
+  flex: 2;
+}
+.flex3{
+  flex:3;
+}
+.al-c{
+  align-items: center;
+}
+
+/*
+  去掉input默认样式
+*/
+input{
+  outline:none;
+  border:none;
+  padding: 0;
+  margin: 0;
+  font-size: .28rem!important;
+}
+
+/* 浮动 */
+.fr{
+  float: right;
+}
+.fl{
+	float: left;
+}
+
+.bg-f{
+  background-color: #FFFFFF;
+}
+
+.text-ep{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.text-ep2{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* 间距 */
+.mt2{
+  margin-top: .2rem;
+}
+.mt3{
+  margin-top: .12rem;
+}
+
+.f-24{
+  font-size: .24rem;
+}
+.f-28{
+  font-size: .28rem;
+}
+.f-30{
+  font-size: .30rem;
+}
+
+.c-3{
+  color: #333;
+}
+.c-6{
+  color: #666;
+}
+.c-9{
+  color: #999;
+}
+.c-y{
+  color: #eda835;
+}
+
+/* 返回首页 */
+.returnHome{
+  width: 50%;
+  margin: 0 auto;
+  font-size: .28rem;
+  color: #666;
+  text-align: center;
+  padding: .2rem 0;
+}
+/* 成功页公共样式 */
+.box-wap{
+  text-align: center;
+  line-height: 100%;
+  font-size: 0;
+}
+.box-wap img{
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  margin: 0 auto 0.44rem;
+  padding-top: 1.14rem;
+  box-sizing: content-box;
+}
+.box-wap p{
+  font-size: .34rem;
+  color: #333333;
+  line-height: .48rem;
+}
+.box-wap a{
+  font-size: .24rem;
+  color: #666;
+  line-height: .34rem;
+}
+.conventionOrder{
+  padding-top: .54rem;
+}
+.conventionOrder li{
+  align-items: center;
+  justify-content: space-between;
+  line-height: .4rem;
+  padding: 0 .3rem .24rem;
+}
+.conventionOrder li p{
+  font-size: .28rem;
+  color: #666;
+}
+.conventionOrder li span{
+  font-size: .28rem;
+  color: #333;
+}
+
+/* 输入框 */
+.addAddress,.inputWap,.c-input{
+  width: 100%;
+  flex-wrap: wrap;
+}
+.c-input{
+  margin-left: .36rem;
+}
+.c-input input{
+  width: 100%;
+  height: 1.1rem;
+  background-color: #fff;
+  font-size: .28rem;
+  color: #999;
+}
+
+
+
+
+
+

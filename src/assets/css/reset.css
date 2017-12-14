@@ -1,0 +1,330 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img,
+ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+center, u, b, i {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  /*vertical-align: baseline*/
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance:none;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(245, 245, 245);
+  /*-webkit-overflow-scrolling: touch;*/
+}
+ul,li,ol{
+  list-style: none;
+}
+button{outline: none;}
+input{
+  border: 0;
+  outline: 0;
+  min-width: 0;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  font-family:'PingFangSC-Regular','-apple-system-font','Microsoft YaHei';
+  color: #ccc;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+/**页面内的padding值**/
+.c-padding {
+  padding: 0 .3rem;
+}
+.p-lr-2{
+  padding: 0 .2rem;
+}
+.p-2{
+  padding: 0 .2rem;
+}
+.home .slider-pagination{
+  bottom:0.8rem;
+}
+
+/*重置样式*/
+#app .weui-tabbar{
+  position: fixed;
+}
+.weui-cells,.vux-no-group-title{
+  margin:0 !important;
+}
+.weui-label{
+  font-size:0.28rem;
+}
+.weui-cell__ft .weui_icon_clear{
+  display:none;
+}
+.banner .vux-slider > .vux-indicator{
+  bottom: 0;
+  height: .2rem;
+}
+.banner .vux-slider > .vux-indicator > a > .vux-icon-dot{
+  background-color: #bab9bb;
+}
+.banner .vux-slider > .vux-indicator > a > .vux-icon-dot.active{
+  background-color: #fff;
+}
+.weui-tabbar{
+  background-color: #fff!important;
+}
+.mallDetail .weui-cells{
+  overflow: visible !important;
+}
+.mallDetail .vux-popup-dialog{
+	overflow-y: visible !important;
+}
+.popup0{
+  padding-bottom: 3.1rem;
+  background-color: #fff;
+  color: #333;
+}
+.pop-title{
+  position: relative;
+  padding: .3rem 0;
+  font-size:.36rem;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.pop-title img{
+  position: absolute;
+  right: .2rem;
+  top: 50%;
+  margin-top: -.15rem;
+  width: .3rem;
+  height: .3rem;
+}
+.pop-tip{
+  height: .6rem;
+  line-height: .6rem;
+  font-size: .28rem;
+  color: #333;
+  text-align: center;
+  background-color: #ffeed3;
+}
+.pop-bottom-btn{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 499;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .36rem;
+  color: #fff;
+  text-align: center;
+  background-color: #fda822;
+}
+.remain-balance{
+  padding: 0 0 .3rem 1rem;
+  font-size: .24rem;
+  color: #999;
+  border-bottom: 1px solid #e5e5e5;
+}
+.remain-num{
+  margin: 0 .2rem 0 .3rem;
+  color: #ee5768;
+}
+.to-charge{
+  font-size: .28rem;
+  color: #219df4;
+}
+.pop-page .weui-cells:before{
+  border-top: none!important;
+}
+.pop-page .weui-cells:after{
+  border-bottom: none!important;
+}
+.pop-page .vux-radio-label{
+  font-size: .28rem;
+}
+.pop-page .weui-icon-checked:before{
+  color: #fda822!important;
+}
+.weui-dialog{
+	border-radius: .3rem !important;
+}
+.weui-dialog__hd{
+	margin-top: .2rem;
+	line-height: .4rem;
+  padding: 0 0 .3rem!important;
+}
+ .weui-dialog__btn_default {
+    color: #999;
+    font-size: .4rem;
+}
+.weui-dialog__ft:after{
+	    border-top: 1px solid #D8D8D8;
+}
+.m-confirm{
+  width: 75%!important;
+}
+.weui-dialog__bd:first-child{
+	padding: .6rem .2rem !important;
+}
+.weui-dialog__btn_primary{
+  font-size: .32rem;
+  color: #219df4!important;
+}
+.weui-dialog__btn_default{
+  font-size: .32rem;
+}
+.bankAdd .vux-cell-primary{
+  flex: 0;
+}
+.bankAdd .weui-cell__ft{
+  flex: 1;
+  text-align: left;
+  color: #333;
+}
+.scroller-indicator{
+  background-image: none !important;
+}
+.scroller-content{
+  bottom:1rem !important;
+}
+.vux-flex-row{
+  position: absolute;
+  top: -.5rem;
+}
+.fixed-wrap .vux-tab{
+  position: fixed!important;
+  z-index: 99;
+  width: 100%;
+  height: .88rem!important;
+}
+.mall-detail a{
+  color: #5eaaff;
+  text-decoration: underline;
+}
+.mall-detail .product-detail-img div,.mall-detail .product-detail-img p,.mall-detail .product-detail-img span{
+  font-family: '-apple-system-font','Microsoft YaHei','PingFangSC-Medium'!important;
+}
+.mall-detail .edit-icon{
+  color: inherit;
+  text-decoration: none;
+}
+.bank .vux-flex-row{
+  position: static;
+}
+ .scroller-item{
+   font-size: .28rem !important;
+ }
+ .scroller-item-selected{
+  font-size:.32rem !important;
+  color: #333 !important;
+}
+.bank-add-page .vux-popup-dialog{
+  background: #ffffff;
+}
+.guide-wrap>.vux-slider,.guide-wrap .vux-slider .vux-swiper {
+  width:100%;
+  height:100% !important;
+}
+.guide-wrap>.vux-slider > .vux-swiper > .vux-swiper-item > a > .vux-img{
+  background-size: 100% 100%;
+}
+.vux-slider > .vux-swiper > .vux-swiper-item > a > .vux-swiper-desc{
+  background-image:none!important;
+}
+.p-b  .vux-slider > .vux-swiper{
+  height: 4.4rem !important;
+}
+.weui-tabbar .weui-tabbar__icon{
+  width: .44rem!important;
+  height: .44rem!important;
+}
+.weui-tabbar{
+  box-sizing: border-box;
+  height: .98rem;
+  padding: .12rem 0 .1rem;
+}
+.weui-tabbar__item{
+  padding: 0!important;
+}
+.weui-tabbar__label{
+  font-size: .2rem!important;
+  color: #979797!important;
+  line-height: .28rem!important;
+  margin-top: .04rem!important;
+}
+.weui-tabbar__item.weui-bar__item_on .weui-tabbar__label{
+  color: #EDA835!important;
+}
+.weui-cell_access .weui-cell__ft{
+  padding-left: 0!important;
+}
+.weui-cell_access .weui-cell__ft:after{
+  width: 0!important;
+  height: 0!important;
+  border: none!important;
+}
+.vux-datetime-value{
+  font-size: .3rem!important;
+  line-height: .42rem;
+  color: #333333!important;
+  background: url('../images/common/jt.png')no-repeat right center!important;
+  background-size: .12rem .24rem!important;
+  padding-right: .42rem!important;
+}
+.dp-header .dp-item.dp-right{
+  color: #EDA835!important;
+}
+.dp-header .dp-item.vux-datetime-clear{
+  color: #EDA835!important;
+}
+
+.weui-dialog__btn_primary{
+  color: #EDA835!important;
+}
+
+.vux-flex-row{
+  position: relative!important;
+  top: 0;
+}
+.vux-cell-box{
+  margin-left: .38rem;
+}
+.weui-cell{
+  padding: .32rem .36rem .3rem 0!important;
+  height: 1.1rem;
+  align-items: center;
+  justify-content: space-between;
+  font-size: .3rem;
+  line-height: .42rem;
+  color: #333333;
+}
+.weui-cell_access .weui-cell__ft{
+  padding-right: 0!important;
+}
+.weui-cell_access .vux-datetime-value{
+  padding-right: .36rem!important;
+}
+.vux-cell-box:before{
+  height: 0!important;
+  width: 0!important;
+}
+.vux-popup-picker-value{
+  font-size: .3rem;
+  line-height: .42rem;
+  color: #333333;
+  background: url("../../assets/images/common/jt.png")no-repeat right center;
+  background-size: .12rem .24rem;
+  padding-right: .42rem;
+}
+.vux-popup-picker-header{
+  color: #eda835!important;
+}

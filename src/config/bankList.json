@@ -1,0 +1,101 @@
+[
+  {
+  "bankName" : "中国银行",
+  "singleMax" : "5万",
+  "dayMax" : "20万",
+  "mouthMax" : "20万",
+  "code" : "BOC"
+  },
+  {
+  "bankName" : "中国工商银行",
+  "singleMax" : "0.5万",
+  "dayMax" : "1万",
+  "mouthMax" : "20万",
+  "code" : "ICBC"
+  },
+  {
+  "bankName" : "中国农业银行",
+  "singleMax" : "--",
+  "dayMax" : "--",
+  "mouthMax" : "--",
+  "code" : "ABC"
+  },
+
+  {
+  "bankName" : "中国建设银行",
+  "singleMax" : "0.5万",
+  "dayMax" : "20万",
+  "mouthMax" : "20万",
+  "code" : "CCB"
+  },
+  {
+  "bankName" : "中国邮政储蓄银行",
+  "singleMax" : "0.5万",
+  "dayMax" : "0.5万",
+  "mouthMax" : "20万",
+  "code" : "POST"
+  },
+  {
+  "bankName" : "中国民生银行",
+  "singleMax" : "5万",
+  "dayMax" : "20万",
+  "mouthMax" : "20万",
+  "code" : "CMBC"
+  },
+  {
+  "bankName" : "广东发展银行",
+  "singleMax" : "5万",
+  "dayMax" : "20万",
+  "mouthMax" : "20万",
+  "code" : "GDB"
+  },
+  {
+  "bankName" : "中信银行",
+  "singleMax" : "2万",
+  "dayMax" : "5万",
+  "mouthMax" : "15万",
+  "code" : "ECITIC"
+  },
+  {
+  "bankName" : "平安银行",
+  "singleMax" : "5万",
+  "dayMax" : "20万",
+  "mouthMax" : "20万",
+  "code" : "PINGANBANK"
+  },
+  {
+  "bankName" : "华夏银行",
+  "singleMax" : "5万",
+  "dayMax" : "20万",
+  "mouthMax" : "20万",
+  "code" : "HXB"
+  },
+  {
+  "bankName" : "中国光大银行",
+  "singleMax" : "5万",
+  "dayMax" : "20万",
+  "mouthMax" : "20万",
+  "code" : "CEB"
+  },
+  {
+  "bankName" : "北京银行",
+  "singleMax" : "5万",
+  "dayMax" : "5万",
+  "mouthMax" : "20万",
+  "code" : "BCCB"
+  },
+  {
+  "bankName" : "浦发银行",
+  "singleMax" : "--",
+  "dayMax" : "--",
+  "mouthMax" : "--",
+  "code" : "SPDB"
+  },
+  {
+  "bankName" : "兴业银行",
+  "singleMax" : "5万",
+  "dayMax" : "20万",
+  "mouthMax" : "20万",
+  "code" : "CIB"
+  }
+]
